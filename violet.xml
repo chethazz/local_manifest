@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ 
+ <remote name="ssh" fetch="ssh://git@github.com" />
   
  <!-- Device Tree -->
  <project path="device/xiaomi/violet" name="PixelOS-Devices/device_xiaomi_violet" remote="github" revision="twelve" />
  
  <!-- Vendor Tree -->
- <project path="vendor/xiaomi/violet" name="PixelOS-Devices/vendor_xiaomi_violet" remote="github" revision="twelve" />
+ <project path="vendor/xiaomi/violet" name="PixelOS-Devices/vendor_xiaomi_violet" remote="ssh" revision="twelve" />
  
  <!--  Kernel tree and clang  -->
  <project name="karthik558/MsM-4.14-RyZeN-" path="kernel/xiaomi/violet" remote="github" revision="R" clone-depth="1"/>
 
  <!--  Device Settings  -->
  <remove-project name="packages_resources_devicesettings" />
- <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-19.0" clone-depth="1"/>
+ <project name="PixelOS-Devices/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-19.0" />
 
  <!-- remove existing hals and add new sm8150 hals -->
  <remove-project name="hardware_qcom-caf_sm8150_media" />
