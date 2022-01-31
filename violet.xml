@@ -10,7 +10,7 @@
  <project path="vendor/xiaomi/violet" name="PixelOS-Devices/vendor_xiaomi_violet" remote="ssh" revision="twelve" />
  
  <!--  Kernel tree and clang  -->
- <project name="karthik558/MsM-4.14-RyZeN-" path="kernel/xiaomi/violet" remote="github" revision="R" clone-depth="1"/>
+ <project name="Panchajanya1999/msm-4.14" path="kernel/xiaomi/violet" remote="github" revision="R" clone-depth="1"/>
 
  <!--  Device Settings  -->
  <remove-project name="packages_resources_devicesettings" />
