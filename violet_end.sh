@@ -12,6 +12,9 @@ nuke hardware/qcom-caf/sm8150/audio
 nuke hardware/qcom-caf/sm8150/display
 nuke hardware/qcom-caf/sm8150/media
 
+echo "Cleaning up hardware/xiaomi"
+nuke hardware/xiaomi
+
 echo "Cleaning up Device Settings"
 nuke packages/resources/devicesettings
 
