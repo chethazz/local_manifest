@@ -2,7 +2,7 @@ echo "Cloning Device Trees"
 github_clone PixelOS-Devices/device_xiaomi_violet.git device/xiaomi/violet twelve
 
 echo "Cloning Vendor Trees"
-github_clone PixelOS-Devices/vendor_xiaomi_violet.git kernel/xiaomi/violet twelve
+github_clone PixelOS-Devices/vendor_xiaomi_violet.git vendor/xiaomi/violet twelve
 
 echo "Cloning Kernel Trees"
 github_clone raghavt20/kernel_sm6150.git kernel/xiaomi/violet 12
