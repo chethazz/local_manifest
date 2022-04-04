@@ -4,8 +4,8 @@ github_clone PixelOS-Devices/device_xiaomi_violet.git device/xiaomi/violet twelv
 echo "Cloning Vendor Trees"
 github_clone PixelOS-Devices/vendor_xiaomi_violet.git kernel/xiaomi/violet twelve
 
-echo "CloningKernel Trees"
-github_clone raghavt20/kernel_sm6150.git kernel/xiaomi/violet twelve
+echo "Cloning Kernel Trees"
+github_clone raghavt20/kernel_sm6150.git kernel/xiaomi/violet 12
 
 echo "Cloning Custom Hals"
 nuke hardware/qcom-caf/sm8150/audio
