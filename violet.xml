@@ -10,7 +10,7 @@
  <project path="vendor/xiaomi/violet" name="PixelOS-Devices/vendor_xiaomi_violet" remote="ssh" revision="twelve" />
  
  <!--  Kernel tree and clang  -->
- <project name="raghavt20/kernel_sm6150" path="kernel/xiaomi/violet" remote="github" revision="12" clone-depth="1"/>
+ <project name="chethazz/android_kernel_xiaomi_violet" path="kernel/xiaomi/violet" remote="github" revision="twelve" clone-depth="1"/>
 
  <!--  Device Settings  -->
  <remove-project name="packages_resources_devicesettings" />
