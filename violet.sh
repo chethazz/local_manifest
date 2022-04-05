@@ -15,6 +15,9 @@ github_clone ArrowOS/android_hardware_qcom_audio hardware/qcom-caf/sm8150/audio 
 github_clone ArrowOS/android_hardware_qcom_display hardware/qcom-caf/sm8150/display arrow-12.0-caf-sm8150
 github_clone ArrowOS/android_hardware_qcom_media hardware/qcom-caf/sm8150/media arrow-12.0-caf-sm8150
 
+echo "Cloning device/xiaomi/extras"
+github_clone ArrowOS-Devices/android_device_xiaomi_extras device/xiaomi/extras arrow-12.0
+
 echo "Cloning hardware/xiaomi"
 github_clone ArrowOS-Devices/android_hardware_xiaomi.git hardware/xiaomi arrow-12.0
 
